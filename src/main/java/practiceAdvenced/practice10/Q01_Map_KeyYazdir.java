@@ -17,7 +17,7 @@ public class Q01_Map_KeyYazdir {
 
         for (Map.Entry<String, Double> w: urunler.entrySet()){
           if (w.getValue()==29.99){
-              System.out.println(w.getKey()+w.getValue());
+              System.out.println(w.getKey()+" :"+w.getValue());
           }
         }
     }
